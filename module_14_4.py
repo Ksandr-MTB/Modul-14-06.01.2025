@@ -11,7 +11,7 @@ from crud_functions import get_all_products
 
 import sqlite3
 
-api = "7505020005:AAEawHWHKH5KH_VQo2pnq95_df23zL5LMTw"
+api = ""
 bot = Bot(token = api)
 dp = Dispatcher(bot, storage = MemoryStorage())
 
